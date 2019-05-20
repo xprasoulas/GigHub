@@ -21,7 +21,7 @@ namespace GigHub.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("GigHubDb", throwIfV1Schema: false)
         {
         }
 
