@@ -18,5 +18,9 @@
     <div>
         @Html.LabelFor(m => m.Time)
         @Html.TextBoxFor(m => m.Time, new { @class = "form-control" })
-    </div>    
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Genres)
+        @Html.DropDownListFor(m =>m.Genres, new SelectList(Model.Genres, "Id", "Name"), "", new { @class = "form-control"})
+    </div>
 </form>
