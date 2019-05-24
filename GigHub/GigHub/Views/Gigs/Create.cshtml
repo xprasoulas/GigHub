@@ -1,4 +1,4 @@
-﻿@model GigHub.Models.Gig
+﻿@model GigHub.ViewModels.GigFormViewModel
 @{
     ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -9,6 +9,6 @@
 <form>
     <div class="form-group" >
         @Html.LabelFor(m => m.Venue)
-        @Html.TextBoxFor(m =>m.Genre, new { @class = "form-control" })
+        @Html.TextBoxFor(m =>m.Venue, new { @class = "form-control" })
     </div>
 </form>
