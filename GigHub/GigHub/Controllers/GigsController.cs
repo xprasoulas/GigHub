@@ -42,19 +42,18 @@ namespace GigHub.Controllers
             //{
             //    viewModel.Genres = _context.Genres.ToList();
             //    return View("Create", viewModel);
-                   
+
             //}
             //convert ViewModel to a GigObject, added to our context and save changes
-            var ArtistId = User.Identity.GetUserId();
             //Get User Id from Database
-            var artist = _context.Users.Single(u => u.Id == ArtistId);
-            var genre = _context.Genres.Single(g => g.Id == viewModel.Genre );
+            //var artist = _context.Users.Single(u => u.Id == ArtistId);
+            //var genre = _context.Genres.Single(g => g.Id == viewModel.Genre );
 
             var gig = new Gig()
-            {
-                Artist = artist,
+            { 
+                ArtistId = User.Identity.GetUserId(),
                 DateTime = DateTime.Parse(string.Format("{0} {1}", viewModel.Date, viewModel.Time)),
-                Genre = genre,
+                GenreId = viewModel.Genre,
                 Venue = viewModel.Venue
             };
 
