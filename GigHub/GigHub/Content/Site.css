@@ -22,3 +22,17 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/*BootStrap Ovverides*/
+
+.navbar-inverse {
+    background-color: #ff4342;
+    border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
