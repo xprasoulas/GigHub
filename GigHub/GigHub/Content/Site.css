@@ -36,3 +36,19 @@ textarea {
 .navbar-inverse .navbar-brand {
     color: white;
 }
+
+body, /*add*/ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;  /*we add the font of our choice and left the default in case google fonts crash*/
+}
