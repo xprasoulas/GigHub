@@ -11,17 +11,17 @@
     @Html.AntiForgeryToken()
     <div class="form-group">
         @Html.LabelFor(m => m.Venue)
-        @Html.TextBoxFor(m => m.Venue, new { @class = "form-control" })
+        @Html.TextBoxFor(m => m.Venue, new { @class = "form-control", autofocus = "autofocus" })
         @Html.ValidationMessageFor(m => m.Venue)
     </div>
     <div>
         @Html.LabelFor(m => m.Date)
-        @Html.TextBoxFor(m => m.Date, new { @class = "form-control" })
+        @Html.TextBoxFor(m => m.Date, new { @class = "form-control", placeholder = "ex 20 Νοε 2020" })
         @Html.ValidationMessageFor(m => m.Date)
     </div>
     <div>
         @Html.LabelFor(m => m.Time)
-        @Html.TextBoxFor(m => m.Time, new { @class = "form-control" })
+        @Html.TextBoxFor(m => m.Time, new { @class = "form-control" , placeholder = "ex 20:00"})
         @Html.ValidationMessageFor(m => m.Time)
     </div>
     <div>
