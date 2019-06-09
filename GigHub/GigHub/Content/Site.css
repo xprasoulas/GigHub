@@ -61,4 +61,13 @@ h6,
 }
 .form-control{
     font-size:17px;
+    padding: 20px 15px;
+    /*-ms-border-radius: 10px; compatibility with older version of broswers*/ 
+    border-radius: 10px;
+}
+.btn {
+    font-size: 17px;
+    padding: 7px 20px;
+    /*-ms-border-radius: 10px; compatibility with older version of broswers*/
+    border-radius: 9px;
 }
