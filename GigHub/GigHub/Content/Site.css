@@ -37,6 +37,21 @@ textarea {
     color: white;
 }
 
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #e11111;
+}
+.dropdown-menu {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.navbar-brand {      
+    font-size: 25px;
+    line-height: 14px;
+    font-weight: 700;
+}
+
+
 .body{
     font-size:17px;
 }
