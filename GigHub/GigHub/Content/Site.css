@@ -65,6 +65,11 @@ h6,
     /*-ms-border-radius: 10px; compatibility with older version of broswers*/ 
     border-radius: 10px;
 }
+.form-contol:focus {
+    border-color: #2196f3;
+    box-shadow: none; /*To ovveride the shadow of the textbox*/
+    -webkit-box-shadow: none;    /*compatibility with older version of broswers*/
+}
 .btn {
     font-size: 17px;
     padding: 7px 20px;
