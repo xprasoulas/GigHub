@@ -97,13 +97,35 @@ h6,
     list-style:none;
 }
 
-.gigs >li {
+.gigs > li {
     position: relative;
     margin-bottom:30px;    
+} 
+
+.gigs > li .date {
+    background: #ff4342;
+    color: #ffffff;
+    text-align: center;
+    width: 60px;
+    border-radius: 8px;
+}
+
+.gigs > li .date .month {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+.gigs > li .date .day {
+    background: #f7f7f7;
+    color: #333;
+    font-size: 20px;
+    padding: 6px 12px;
 }
 
 .gigs > li .details {
     position: absolute;
     top: 0;
-    left: 70px; 
+    left: 70px;
 }
