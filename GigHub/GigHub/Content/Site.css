@@ -91,3 +91,19 @@ h6,
     /*-ms-border-radius: 10px; compatibility with older version of broswers*/
     border-radius: 9px;
 }
+
+/*Page-Level Styles*/
+.gigs{
+    list-style:none;
+}
+
+.gigs >li {
+    position: relative;
+    margin-bottom:30px;    
+}
+
+.gigs > li .details {
+    position: absolute;
+    top: 0;
+    left: 70px; 
+}
