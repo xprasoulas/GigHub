@@ -86,8 +86,8 @@ h6,
     -webkit-box-shadow: none;    /*compatibility with older version of broswers*/
 }
 .btn {
-    font-size: 17px;
-    padding: 7px 20px;
+    /*font-size: 17px;
+    padding: 7px 20px;*/
     /*-ms-border-radius: 10px; compatibility with older version of broswers*/
     border-radius: 9px;
 }
