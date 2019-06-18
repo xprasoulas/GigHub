@@ -34,7 +34,7 @@
         $(document).ready(function () {
             $(".js-toggle-attendance").click(function (e) {
                 var button = $(e.target);
-                $.post("/api/attendances", { "": button.attr("data-gig-id") })   //AJAX Call
+                $.post("/api/attendances", { gigId: button.attr("data-gig-id") })   //AJAX Call
                     .done(function () {
                         button
                             .removeClass("btn-default")
