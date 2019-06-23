@@ -23,6 +23,12 @@ textarea {
     max-width: 280px;
 }
 
+.voffset {margin-top: 2px; }
+.voffset1 {margin-top: 5px; }
+.voffset2 {margin-top: 20px; }
+.voffset3 {margin-top: 40px; }
+.voffset4 {margin-top: 80px; }
+
 /*BootStrap Ovverides*/
 
 .navbar-inverse {
@@ -43,7 +49,7 @@ textarea {
 }
 .dropdown-menu {
     box-shadow: none;
-    -webkit-box-shadow: none;
+    /*-webkit-box-shadow: none;*/
 }
 .navbar-brand {      
     font-size: 25px;
@@ -83,7 +89,7 @@ h6,
 .form-contol:focus {
     border-color: #2196f3;
     box-shadow: none; /*To ovveride the shadow of the textbox*/
-    -webkit-box-shadow: none;    /*compatibility with older version of broswers*/
+    /*-webkit-box-shadow: none;*/    /*compatibility with older version of broswers*/
 }
 .btn {
     /*font-size: 17px;
